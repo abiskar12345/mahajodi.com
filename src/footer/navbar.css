@@ -1,0 +1,93 @@
+
+nav {
+    overflow: hidden;
+    background-color: #2BBC9C;
+    padding: 10px;
+ }
+
+ .search-bar{
+    position: relative; 
+    height: 30px;
+    width: fit-content;
+    float: right;
+    border-radius: 20px;
+    background:white ;
+  
+
+ }
+ .profile-icon{
+     position: relative;
+     align-content: flex-end;
+ }
+ .search-btn{
+    
+     color: aqua;
+     height: 30px;
+     width: 30px;
+     float: right;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     align-items: center;
+     transition: 0.4s;
+    
+ }
+ .search-text{
+     border-radius: 20px;
+     height: 30px;
+     background: none;
+     border: none;
+     outline: none;
+     width: 0px ;
+     font-size: 16px;
+     transition: 0.4s;
+     padding-left: 2px;
+ }
+ .search-bar:hover>.search-btn{
+     background-color: antiquewhite;
+ }
+  .search-bar:hover>.search-text{
+      width: fit-content;
+       padding: 0,6px;
+  }
+ .links-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    
+ }
+ nav .logo {
+    font-size: 25px;
+    font-weight: bold;
+ }
+ nav .links-header:hover {
+    background-color: #8bebd6;
+    color: #2BBC9C;
+ }
+ nav .selected {
+    background-color: dodgerblue;
+    color: white;
+ }
+ .rightSection {
+    align-content:left;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ @media screen and (max-width: 870px) {
+    .nav .links-header {
+       float: none;
+       display: block;
+       text-align: left;
+    }
+    .rightSection {
+       float: left;
+    }
+ }

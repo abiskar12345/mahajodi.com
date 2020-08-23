@@ -1,0 +1,254 @@
+
+.team{
+    padding:20px 0;
+}
+h5.description{
+	font-weight: bold;
+	letter-spacing: 2px;
+	color:#2BBC9C;
+	border-bottom: 1px solid rgba(0, 0, 0,0.1);
+	padding-bottom: 5px;
+	text-align: center;
+	padding-top: 10px;
+}
+.profile{
+	margin-top: 25px;
+}
+.profile h1{
+	font-weight: normal;
+	font-size: 20px;
+	margin:10px 0 0 0;
+}
+.profile h2{
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+.profile .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile .img-box:after{
+	content:"";
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+	opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+.img-box ul li{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+	display: inline-block;
+}
+.img-box a{
+	color:#fff;
+}
+.img-box:hover:after{
+	opacity: 1;
+}
+.img-box:hover ul{
+	opacity: 1;
+}
+.img-box ul a{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+	border-color: #fff;
+	color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+
+.serprofile{
+	padding: 10px;
+
+}
+
+    
+@media only screen and (min-width: 800px) {
+	.serprofile{
+		padding: 20px;
+		padding-left: 75px;
+		width:fit-content ;
+		height: fit-content;
+	}
+ .serimage{
+		height: 40px !important ;
+	}
+	   
+	
+  }
+ /* profile 2 modified css begins */
+ /* profile 2 modified css begins */
+ .profile2{
+	margin-top: 25px;
+}
+.profile2 h1{
+	font-weight: normal;
+	font-size: 20px;
+	margin:10px 0 0 0;
+}
+.profile2 h2{
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+.profile2 .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+	align-content:flex-start;
+}
+.profile2 .img-box:after{
+	content:"";
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.profile2 .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.description{
+	align-content: center;
+}
+
+
+.happy-matrimonial{
+	display: block;
+	padding-bottom: 20px;
+	padding-top: 40px
+}
+.stories{
+	border: 2px dashed #2BBC9C;
+	padding: 5px;
+	overflow: auto;
+	height: 150px;
+}
+.matrimonial-category{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px
+
+
+}
+.sb-cat{
+	border: 2px solid #2BBC9C;
+	padding: 5px;
+	overflow: auto;
+	height: 150px;
+
+}
+.parent-cat{
+	background-color: #2BBC9C ;
+	align-content: center;
+	text-align: center;
+	color: white;
+}
+.selectstyle{
+	float :  right;
+	position: relative;
+	width: 100px;
+}
+ 
+
+
+
+  /* profile 2 modified css ends */
+ /* profile 2 modified css ends */
+
+  /* advanced search begins */
+  /* advanced search begins */
+  .category-name{
+	  width: auto;
+	  height: 30px;
+	  padding: 20px;
+	  background-color: slategrey;
+	  
+  }
+
+  .show-sbcat{
+	  height: 400px;
+	  width: auto;
+	  display: none;
+	  
+	
+  }
+  .catchoices{
+	display: grid;
+    align-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    padding: 2px;
+  }	
+  .cat-inpt{
+	  widows:0px
+  }
+  
+  .catchoices li{
+	  display: inline;
+
+  }
+  .category-name:hover+.show-sbcat{
+	
+	  width: auto;
+	  height: 200px;
+	  display: inline-block;
+	  transition: 0.4s;
+  }
+	
+
+
+
+
+
+
+
+
+  /* advanced search ends */
+  /* advanced search ends */
+      
